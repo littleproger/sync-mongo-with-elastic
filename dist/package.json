@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/your-repo.git"
+    "url": "git+https://github.com/littleproger/sync-mongo-with-elastic.git"
   },
   "keywords": [
     "mongo",
