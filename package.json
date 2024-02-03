@@ -1,0 +1,33 @@
+{
+  "name": "@yarik-dnsk/sync-elastic-with-mongo",
+  "version": "1.0.0",
+  "description": "Synchronization mongodb with elastic",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist/lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/your-repo.git"
+  },
+  "keywords": [
+    "mongo",
+    "elastic",
+    "sync"
+  ],
+  "author": "Yaroslav denusyk3@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.11.0",
+    "dotenv": "^16.4.1",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "mongo-elastic-sync": "^1.1.2",
+    "ts-node": "^10.9.2"
+  }
+}
